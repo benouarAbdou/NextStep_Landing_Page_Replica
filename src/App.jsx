@@ -1,16 +1,12 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-
-function App() {
-  const [count, setCount] = useState(0);
-
+import CustomButton from "./assets/components/customButton";
+import Hero from "./assets/components/hero";
+const App = () => {
   return (
-    <>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    </>
+    <div className="p-4">
+      <Hero />
+    </div>
   );
-}
+};
 
 export default App;
