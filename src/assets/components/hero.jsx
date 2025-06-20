@@ -55,7 +55,7 @@ const Hero = () => {
       </div>
 
       {/* Loom Video Embed with 4:3 Aspect Ratio */}
-      <div className="w-full h-full max-w-3xl mb-8">
+      <div className="w-full h-full max-w-3xl my-12">
         <div className="relative aspect-[16/9]">
           <iframe
             src="https://www.loom.com/embed/d81ee9ad60b042528ee02aea17927f13?sid=e600f0f2-35e5-4ac7-a20f-eaffd4b2f150&hide_owner=true&hide_title=true&hide_share=true&hideEmbedTopBar=true&hide_speed=true"
