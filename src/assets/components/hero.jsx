@@ -4,7 +4,7 @@ import { FaHeart, FaStar, FaPhone } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-white text-center px-8">
+    <div className="flex flex-col items-center justify-center mt-32 bg-white text-center px-8">
       {/* Top text with border */}
       <div className="border border-gray-300 rounded-full px-6 py-1 mb-6">
         <span className="text-sm font-medium text-gray-800">
