@@ -50,9 +50,9 @@ const Prices = () => {
         ))}
       </div>
 
-      <p>
+      <p className="py-8">
         Need more than 10 users?
-        <span className="cursor-pointer text-[#FE9A00]"> Contact us</span> for
+        <span className="cursor-pointer  text-[#FE9A00]"> Contact us</span> for
         custom pricing.
       </p>
     </div>

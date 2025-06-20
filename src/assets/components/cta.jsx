@@ -2,7 +2,7 @@ import { FaHeart, FaStar, FaPhone } from "react-icons/fa";
 import CustomButton from "./customButton"; // Adjust the import path as necessary
 const Cta = () => {
   return (
-    <div className="max-w-3xl mx-auto py-6 flex flex-col items-center justify-center text-center px-8 ">
+    <div className="max-w-4xl mx-auto py-6 flex flex-col items-center justify-center text-center px-8 ">
       {/* Title with "in minutes" having yellow background and tilt */}
       <h1 className="text-xl md:text-4xl font-bold text-gray-900 mb-6">
         Ready to turn your chaos into a

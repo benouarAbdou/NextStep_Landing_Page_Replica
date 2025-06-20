@@ -3,7 +3,7 @@ import CustomButton from "./customButton"; // Assuming CustomButton is in a sepa
 
 const PricingCard = ({ users, price, description }) => {
   return (
-    <div className=" rounded-lg  p-6  flex flex-col items-center  bg-white">
+    <div className="rounded-3xl p-8 flex flex-col items-center border-[1px] border-black/5 bg-white shadow-lg">
       <div className="bg-yellow-300 text-sm font-semibold -rotate-1 w-fit inline-block px-1">
         <h3 className="text-lg font-semibold">{users} </h3>
       </div>
@@ -16,7 +16,7 @@ const PricingCard = ({ users, price, description }) => {
       <div className="text-center mb-6 ">
         <p className="text-black/60">{description}</p>
       </div>
-      <div className="mb-8">
+      <div>
         <CustomButton text="Start Free Trial" px="px-16" />
       </div>
     </div>
