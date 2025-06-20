@@ -21,7 +21,7 @@ const Prices = () => {
   ];
 
   return (
-    <div className="text-center flex flex-col items-center ">
+    <div className="text-center flex flex-col items-center px-8">
       <div className="border border-gray-300 rounded-full px-6 py-1 mb-6 w-fit">
         <span className="text-sm font-medium text-gray-800">
           SIMPLE PRICING
@@ -39,7 +39,7 @@ const Prices = () => {
       <p className="text-lg md:text-xl text-gray-600 max-w-3xl mb-8">
         Start with a 14-day free trial. No credit card required.
       </p>
-      <div className="flex flex-row justify-center gap-6 max-w-6xl mx-auto">
+      <div className="flex flex-col lg:flex-row justify-center gap-2 lg:gap-6 max-w-6xl mx-auto">
         {pricingPlans.map((plan, index) => (
           <PricingCard
             key={index}

@@ -1,7 +1,7 @@
 import pic from "../images/Headshot.webp";
 const Testemonials = () => {
   return (
-    <div className="max-w-3xl mx-auto  text-left py-20">
+    <div className="max-w-3xl mx-auto  text-left py-20 px-8">
       <div className="border border-gray-300 rounded-full px-6 py-1 mb-6 w-fit">
         <span className="text-sm font-medium text-gray-800">
           ABOUT NEXTSTEP
@@ -9,9 +9,9 @@ const Testemonials = () => {
       </div>
 
       {/* Title */}
-      <h1 className="text-2xl md:text-4xl ml-4 font-bold text-gray-900 mb-6">
+      <h1 className="text-xl md:text-4xl ml-4 font-bold text-gray-900 mb-6">
         Most people underestimate the
-        <br />
+        <br className="md:block hidden" />
         <span className="bg-yellow-300 inline-block px-2 py-1 transform -rotate-1">
           power of great processes
         </span>

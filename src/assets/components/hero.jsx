@@ -4,7 +4,7 @@ import { FaHeart, FaStar, FaPhone } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-white text-center px-4">
+    <div className="flex flex-col items-center justify-center min-h-screen bg-white text-center px-8">
       {/* Top text with border */}
       <div className="border border-gray-300 rounded-full px-6 py-1 mb-6">
         <span className="text-sm font-medium text-gray-800">
@@ -15,7 +15,7 @@ const Hero = () => {
       {/* Title with "in minutes" having yellow background and tilt */}
       <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
         Create and run step-by-
-        <br />
+        <br className="md:block hidden" />
         step processes{" "}
         <span className="bg-yellow-300 inline-block px-2 py-1 transform -rotate-2">
           in minutes
@@ -73,7 +73,7 @@ const Hero = () => {
       </div>
 
       {/* Title */}
-      <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mb-6">
+      <h1 className="text-xl md:text-4xl font-bold text-gray-900 mb-6">
         Simplify how your team works with
         <br />
         <span className="bg-yellow-300 inline-block px-2 py-1 transform -rotate-1">
@@ -82,7 +82,7 @@ const Hero = () => {
       </h1>
 
       {/* Description */}
-      <p className="text-lg md:text-xl text-gray-600 max-w-3xl mb-8">
+      <p className="text-md md:text-xl text-gray-600 max-w-3xl mb-8">
         NextStep simplifies process creation and execution so your team can
         focus on doing great work. Here;aps how it works…
       </p>

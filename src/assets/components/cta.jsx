@@ -2,9 +2,9 @@ import { FaHeart, FaStar, FaPhone } from "react-icons/fa";
 import CustomButton from "./customButton"; // Adjust the import path as necessary
 const Cta = () => {
   return (
-    <div className="max-w-3xl mx-auto p-6 flex flex-col items-center justify-center text-center">
+    <div className="max-w-3xl mx-auto py-6 flex flex-col items-center justify-center text-center px-8 ">
       {/* Title with "in minutes" having yellow background and tilt */}
-      <h1 className="text-2xl md:text-4xl font-bold text-gray-900 mb-6">
+      <h1 className="text-xl md:text-4xl font-bold text-gray-900 mb-6">
         Ready to turn your chaos into a
         <br />
         <span className="bg-yellow-300 inline-block px-2 py-1 transform -rotate-1">
@@ -14,7 +14,7 @@ const Cta = () => {
       </h1>
 
       {/* Description */}
-      <p className="text-lg md:text-xl text-gray-600 max-w-3xl mb-8">
+      <p className="text-md md:text-xl text-gray-600 max-w-3xl mb-8">
         Be among the first to transform your processes and join our growing
         community.
       </p>
@@ -25,7 +25,7 @@ const Cta = () => {
       </div>
 
       {/* Row of three items with FontAwesome icons */}
-      <div className="flex flex-col md:flex-row gap-8 md:gap-12 mb-8">
+      <div className="flex flex-col md:flex-row gap-4 md:gap-12 mb-8">
         {/* Item 1: Red Heart */}
         <div className="flex items-center gap-2">
           <FaHeart className="text-red-500 text-md" />

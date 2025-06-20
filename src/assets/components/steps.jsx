@@ -47,7 +47,7 @@ const Steps = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center max-w-5xl mx-auto gap-8">
+    <div className="flex flex-col items-center max-w-5xl px-8 mx-auto gap-8">
       {stepsData.map((step) => (
         <StepCard
           key={step.stepNumber}
