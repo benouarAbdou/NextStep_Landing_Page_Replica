@@ -1,8 +1,15 @@
 import { FaHeart, FaStar, FaPhone } from "react-icons/fa";
 import CustomButton from "./customButton"; // Adjust the import path as necessary
+
 const Cta = () => {
   return (
-    <div className="max-w-4xl mx-auto py-6 flex flex-col items-center justify-center text-center px-8 ">
+    <div
+      className="mx-auto py-6 flex flex-col items-center justify-center text-center px-8"
+      style={{
+        background:
+          "linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 252, 240, 1) 25%, rgba(255, 251, 235, 1) 50%, rgba(255, 252, 240, 1) 75%, rgba(255, 255, 255, 1) 100%)"
+      }}
+    >
       {/* Title with "in minutes" having yellow background and tilt */}
       <h1 className="text-xl md:text-4xl font-bold text-gray-900 mb-6">
         Ready to turn your chaos into a
@@ -13,8 +20,9 @@ const Cta = () => {
         ?
       </h1>
 
-      {/* Description */}
-      <p className="text-md md:text-xl text-gray-600 max-w-3xl mb-8">
+      {/* Description with vertical gradient background */}
+
+      <p className="text-md md:text-xl text-gray-600 max-w-3xl pb-8 mx-auto">
         Be among the first to transform your processes and join our growing
         community.
       </p>
@@ -47,4 +55,5 @@ const Cta = () => {
     </div>
   );
 };
+
 export default Cta;

@@ -1,7 +1,6 @@
 import React from "react";
 import CustomButton from "./customButton";
 import { FaHeart, FaStar, FaPhone } from "react-icons/fa";
-
 const Hero = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-32 bg-white text-center px-8">
@@ -34,7 +33,7 @@ const Hero = () => {
       </div>
 
       {/* Row of three items with FontAwesome icons */}
-      <div className="flex flex-col md:flex-row gap-8 md:gap-12 mb-8">
+      <div className="flex flex-col md:flex-row gap-4 md:gap-12 mb-8">
         {/* Item 1: Red Heart */}
         <div className="flex items-center gap-3">
           <FaHeart className="text-red-500 text-xl" />
@@ -55,15 +54,13 @@ const Hero = () => {
       </div>
 
       {/* Loom Video Embed with 4:3 Aspect Ratio and Yellow Hue */}
-      <div className="w-full max-w-3xl my-12">
-        <div className="relative aspect-[16/9]">
+      <div className="w-full max-w-3xl my-12  ">
+        <div className=" aspect-[16/9] ">
           <iframe
             src="https://www.loom.com/embed/d81ee9ad60b042528ee02aea17927f13?sid=e600f0f2-35e5-4ac7-a20f-eaffd4b2f150&hide_owner=true&hide_title=true&hide_share=true&hideEmbedTopBar=true&hide_speed=true"
             frameBorder="0"
             allowFullScreen
-            allowTransparency="true"
-            className="absolute top-0  left-0 w-full h-full rounded-xl shadow-[0_0_120px_5px_rgba(255,230,0,0.3)]"
-            style={{ display: "block", border: "none", margin: 0, padding: 0 }}
+            className="  w-full  h-full rounded-xl shadow-[0_0_120px_5px_rgba(255,230,0,0.3)]"
           ></iframe>
         </div>
       </div>
